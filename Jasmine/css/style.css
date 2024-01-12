@@ -1,0 +1,309 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;700&display=swap");
+/* @include box-sizing(#); */
+.promo-81 {
+  font: 400 16px/24px "Montserrat", sans-serif;
+  overflow: hidden;
+  min-height: 100%;
+  display: flex;
+  flex-direction: column;
+  color: #202020;
+  background: #fff;
+  margin: -8px;
+}
+.promo-81 *, .promo-81 :before, .promo-81 :after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.promo-81 ul, .promo-81 ol {
+  list-style-type: none;
+}
+.promo-81 p {
+  margin-bottom: 24px;
+}
+.promo-81 .container {
+  padding-left: 10px;
+  padding-right: 10px;
+  margin: 0 auto;
+  width: 100%;
+}
+@media only screen and (min-width: 576px) {
+  .promo-81 .container {
+    max-width: 576px;
+  }
+}
+@media only screen and (min-width: 768px) {
+  .promo-81 .container {
+    max-width: 720px;
+  }
+}
+@media only screen and (min-width: 992px) {
+  .promo-81 .container {
+    max-width: 960px;
+  }
+}
+@media only screen and (min-width: 1200px) {
+  .promo-81 .container {
+    max-width: 1180px;
+  }
+}
+@media only screen and (min-width: 1600px) {
+  .promo-81 .container {
+    max-width: 1540px;
+  }
+}
+.promo-81 .pos-rel {
+  position: relative;
+  z-index: 1;
+}
+.promo-81 .img-fluid {
+  display: block;
+  max-width: 100%;
+}
+.promo-81 .w-100 {
+  width: 100% !important;
+}
+@media only screen and (min-width: 768px) {
+  .promo-81 .order-md-2 {
+    order: 2;
+  }
+}
+@media only screen and (min-width: 992px) {
+  .promo-81 .order-lg-2 {
+    order: 2;
+  }
+}
+.promo-81 .d-flex {
+  display: flex !important;
+}
+.promo-81 .d-block {
+  display: block !important;
+}
+.promo-81 .d-inline-flex {
+  display: inline-flex !important;
+}
+.promo-81 .flex-column {
+  flex-direction: column;
+}
+.promo-81 .flex-grow {
+  flex-grow: 1;
+}
+.promo-81 .flex-wrap {
+  flex-wrap: wrap;
+}
+.promo-81 .d-none {
+  display: none !important;
+}
+.promo-81 .align-items-center {
+  align-items: center;
+}
+.promo-81 .justify-content-center {
+  justify-content: center;
+}
+.promo-81 .justify-content-end {
+  justify-content: flex-end;
+}
+.promo-81 .justify-content-between {
+  justify-content: space-between;
+}
+.promo-81 .text_mediumbold {
+  font-weight: 500;
+}
+.promo-81 .title {
+  font-size: 36px;
+  font-weight: 700;
+  line-height: normal;
+  margin-bottom: 31px;
+}
+@media only screen and (max-width: 767px) {
+  .promo-81 .title {
+    font-size: 24px;
+    line-height: 25px;
+  }
+}
+.promo-81 .text_center {
+  text-align: center;
+}
+.promo-81 .text_size-sm {
+  font-size: 14px;
+}
+.promo-81 .bg-light {
+  background: #FAFAFA;
+}
+.promo-81 .dots-list {
+  padding-left: 10px;
+  font-size: 14px;
+}
+.promo-81 .dots-list__item {
+  position: relative;
+  padding-left: 11px;
+  margin-bottom: 24px;
+}
+.promo-81 .dots-list__item:before {
+  content: "";
+  display: block;
+  position: absolute;
+  top: 12px;
+  left: 0;
+  width: 2px;
+  height: 2px;
+  border-radius: 50%;
+  background: #202020;
+}
+@media only screen and (max-width: 1199px) {
+  .promo-81 .promo-81-1 .title {
+    margin-bottom: 10px;
+  }
+}
+@media only screen and (max-width: 1199px) {
+  .promo-81 .promo-81-1 p {
+    margin-bottom: 10px;
+  }
+}
+.promo-81 .promo-81-1__text {
+  position: absolute;
+  padding: 0 17%;
+  top: 100px;
+  left: 0;
+  right: 0;
+}
+@media only screen and (max-width: 1599px) {
+  .promo-81 .promo-81-1__text {
+    top: 30px;
+  }
+}
+@media only screen and (max-width: 991px) {
+  .promo-81 .promo-81-1__text {
+    position: static;
+    padding: 40px 10px 20px;
+  }
+}
+.promo-81 .promo-81-1__logo {
+  width: 328px;
+  margin-top: 14px;
+}
+@media only screen and (max-width: 1399px) {
+  .promo-81 .promo-81-1 .container {
+    padding: 0;
+    max-width: 100%;
+  }
+}
+.promo-81 .promo-81-2 {
+  padding: 100px 0;
+}
+@media only screen and (max-width: 1199px) {
+  .promo-81 .promo-81-2 {
+    padding-bottom: 50px;
+  }
+}
+@media only screen and (max-width: 991px) {
+  .promo-81 .promo-81-2 {
+    padding: 100px 0 0;
+  }
+}
+@media only screen and (min-width: 1200px) {
+  .promo-81 .promo-81-2__text {
+    padding: 0 17% 37px;
+  }
+}
+@media only screen and (min-width: 992px) {
+  .promo-81 .promo-81-3__content {
+    display: grid;
+    grid-template-columns: 49% 49%;
+    justify-content: space-between;
+  }
+}
+@media only screen and (min-width: 1200px) {
+  .promo-81 .promo-81-3__text {
+    padding: 27px 3% 0 5.7%;
+  }
+}
+.promo-81 .promo-81-4 {
+  padding: 100px 0;
+}
+@media only screen and (min-width: 1200px) {
+  .promo-81 .promo-81-4__text {
+    padding: 0 10% 38px;
+  }
+}
+@media only screen and (min-width: 1200px) {
+  .promo-81 .promo-81-4__content {
+    padding: 0 8.5%;
+  }
+}
+.promo-81 .table {
+  width: 100%;
+  border-collapse: collapse;
+  border: 1px solid #E2E2E2;
+}
+@media only screen and (max-width: 991px) {
+  .promo-81 .table-responsive {
+    border: 1px solid #ccc;
+    overflow: auto;
+  }
+  .promo-81 .table-responsive td {
+    white-space: nowrap;
+  }
+}
+.promo-81 .table th {
+  border-left: 1px solid #E2E2E2;
+  padding: 17px 39px 16px;
+  text-align: left;
+  font-weight: 500;
+}
+@media only screen and (max-width: 1199px) {
+  .promo-81 .table th {
+    padding: 17px 20px 16px;
+  }
+}
+.promo-81 .table td {
+  border-left: 1px solid #E2E2E2;
+  padding: 13px 38px 11px;
+}
+@media only screen and (max-width: 1199px) {
+  .promo-81 .table td {
+    padding: 13px 20px 11px;
+  }
+}
+.promo-81 .table td:first-child {
+  font-weight: 500;
+  padding-left: 19px;
+  white-space: nowrap;
+}
+.promo-81 .table tr:last-child td {
+  padding-bottom: 18px;
+}
+.promo-81 .table tr:nth-of-type(odd) {
+  background: #FAFAFA;
+}
+@media only screen and (min-width: 992px) {
+  .promo-81 .promo-81-5__content {
+    display: grid;
+    grid-template-columns: 49% 49%;
+    justify-content: space-between;
+  }
+}
+@media only screen and (min-width: 1200px) {
+  .promo-81 .promo-81-5__text {
+    padding: 20px 4% 0 7.8%;
+  }
+}
+.promo-81 .promo-81-5__table {
+  margin: 60px 0 100px;
+}
+@media only screen and (min-width: 1200px) {
+  .promo-81 .promo-81-5__table {
+    padding: 0 8.5%;
+  }
+}
+.promo-81 .promo-81-6 {
+  padding: 120px 0;
+}
+@media only screen and (min-width: 1200px) {
+  .promo-81 .promo-81-6__text {
+    padding: 0 17% 34px;
+  }
+}
+.promo-81 .promo-81-7 {
+  padding: 47px 0;
+}
